@@ -1,0 +1,22 @@
+naming conversions 
+
+variables : 
+1 - global / local/ iput arg/ macros
+
+	global variables
+	
+	-> data type SWC_datatypeDescName
+	u8 		DIO_u8ChannelId;
+	
+	local variables
+	-> Dt 	local_DtDescName;
+	u8 local_u8ChannelId;
+	
+	iput arguments 
+	dt Copy_datatypeDescName;
+	u8 Copy_u8ChannelIdl
+	
+	macros
+	
+	
+	
