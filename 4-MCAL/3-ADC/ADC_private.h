@@ -7,8 +7,8 @@
 #ifndef ADC_PRIVATE_H
 #define ADC_PRIVATE_H
 
-#define ADC_u8_NOT_BUSY                     0
-#define ADC_u8_BUSY 	                    1
+#define ADC_u8_NOT_BUSY 0
+#define ADC_u8_BUSY 	1
 
 #define ADC_u8_SFIOR_REG               *((volatile u8*)0x50)
 #define ADC_u8_ADMUX_REG               *((volatile u8*)0x27)
