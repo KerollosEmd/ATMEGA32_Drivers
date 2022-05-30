@@ -1,9 +1,11 @@
+# TIMER/COUNTER
+
 /*tiks_num = 1023;  //--->timer 10 bits
 F_CPU=8000000UL;
 prescale_time=1000000;
 OVF_time=1024;//----->1024 uS
 
-//50000000 us desired time 
+//50000000 us desired time
 desired_tiks=4882.8125;
 preloadValue=1024-832=192;
 //counter--->4883
@@ -26,7 +28,7 @@ ISR(ovf){
 /*
 timerFreq=F_CPU/prescale
 time of one tike= 1/timeFreq =1 uS
-time of OVF= time of one tike *2^(Res)=1024 uS 
+time of OVF= time of one tike*2^(Res)=1024 uS
 
 number of OvF= desired time /time of OVF =48882.8125
 
